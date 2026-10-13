@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aniket Kapse - B.Tech Computer Science and AI student and frontend developer. Portfolio built with pure HTML and CSS.">
+  <title>Aniket Kapse | Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Animated background (pure CSS) -->
+  <div class="aurora" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="site-header">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo">
+        <span class="logo-mark">AK</span>
+        <span class="logo-text">aniket<span>.dev</span></span>
+      </a>
+
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="btn btn-small">Hire Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="badge"><span class="dot"></span> Open to internships &amp; opportunities</p>
+        <h1>
+          Hi, I'm <span class="gradient-text">Aniket Kapse</span>
+          <span class="wave">👋</span>
+        </h1>
+        <p class="role">
+          <span class="typing">Frontend Developer</span>
+        </p>
+        <p class="intro">
+          B.Tech student in <strong>Computer Science &amp; AI</strong> (Batch 2026).
+          I turn ideas into clean, responsive and interactive web experiences,
+          using nothing but HTML and CSS.
+        </p>
+        <div class="cta-row">
+          <a href="#projects" class="btn btn-primary">View My Work <span class="arrow">→</span></a>
+          <a href="https://github.com/aniketkapse149-web" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+        </div>
+
+        <ul class="stats">
+          <li><strong>2026</strong><span>Graduating batch</span></li>
+          <li><strong>CS + AI</strong><span>B.Tech specialisation</span></li>
+          
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <i class="t-dot red"></i><i class="t-dot yellow"></i><i class="t-dot green"></i>
+            <span>aniket@portfolio: ~</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">$</span> whoami</p>
+            <p class="out">Aniket Kapse</p>
+            <p><span class="prompt">$</span> role</p>
+            <p class="out">Frontend Developer</p>
+            <p><span class="prompt">$</span> education</p>
+            <p class="out">B.Tech CS &amp; AI · 2026</p>
+            <p><span class="prompt">$</span> currently_building</p>
+            <p class="out">Beautiful things for the web<span class="cursor">▍</span></p>
+          </div>
+        </div>
+
+        <div class="float-chip chip-1">&lt;html/&gt;</div>
+        <div class="float-chip chip-2">{ css }</div>
+        <div class="float-chip chip-3">AI ✦</div>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>HTML5</span><span>CSS3</span><span>Flexbox</span><span>CSS Grid</span><span>Responsive Design</span><span>Animations</span><span>Git</span><span>GitHub</span><span>AI</span>
+        <span>HTML5</span><span>CSS3</span><span>Flexbox</span><span>CSS Grid</span><span>Responsive Design</span><span>Animations</span><span>Git</span><span>GitHub</span><span>AI</span>
+      </div>
+    </div>
+
+    <!-- ================= ABOUT (BENTO) ================= -->
+    <section id="about" class="section">
+      <p class="eyebrow">01 — Who I am</p>
+      <h2>A little bit <span class="gradient-text">about me</span></h2>
+
+      <div class="bento">
+        <article class="card bento-about reveal">
+          <h3>Hello, world 🌍</h3>
+          <p>
+            I'm Aniket, a Computer Science and AI student who loves learning by building.
+            I enjoy turning a blank page into something people actually want to use,
+            and experimenting with new ideas until they click.
+          </p>
+          <p>
+            Right now I'm sharpening my frontend skills, and I'm curious about
+            how AI can make the web smarter.
+          </p>
+        </article>
+
+        <article class="card bento-edu reveal">
+          <span class="card-icon">🎓</span>
+          <h3>B.Tech</h3>
+          <p>Computer Science &amp; Artificial Intelligence</p>
+          <span class="pill">Batch of 2026</span>
+        </article>
+
+        <article class="card bento-ai reveal">
+          <span class="card-icon">🤖</span>
+          <h3>AI Curious</h3>
+          <p>Using AI tools to learn faster, debug smarter and build better.</p>
+        </article>
+
+        <article class="card bento-github reveal">
+          <span class="card-icon">🐙</span>
+          <h3>GitHub</h3>
+          <p>All my code lives here.</p>
+          <a href="https://github.com/aniketkapse149-web" target="_blank" rel="noopener" class="link">Visit profile →</a>
+        </article>
+
+        <article class="card bento-motto reveal">
+          <p class="motto">“Build it. Break it. Fix it. Ship it.”</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+      <p class="eyebrow">02 — What I know</p>
+      <h2>Skills &amp; <span class="gradient-text">toolbox</span></h2>
+
+      <div class="skills-grid">
+        <article class="card skill-card reveal">
+          <h3>🎨 Frontend</h3>
+          <ul class="pills">
+            <li>HTML5</li><li>CSS3</li><li>Flexbox</li><li>CSS Grid</li><li>Responsive Design</li><li>Animations</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card reveal">
+          <h3>🧰 Tools</h3>
+          <ul class="pills">
+            <li>Git</li><li>GitHub</li><li>VS Code</li><li>Chrome DevTools</li>
+          </ul>
+        </article>
+
+        <article class="card skill-card reveal">
+          <h3>🌱 Currently Learning</h3>
+          <ul class="pills">
+            <li>JavaScript</li><li>React</li><li>Node.js</li><li>Machine Learning</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+      <p class="eyebrow">03 — What I've built</p>
+      <h2>Selected <span class="gradient-text">projects</span></h2>
+
+      <div class="projects-grid">
+
+        <article class="card project reveal">
+          <div class="project-thumb thumb-1" aria-hidden="true">
+            <div class="mini-flex"><i></i><i></i><i></i></div>
+          </div>
+          <div class="project-body">
+            <h3>Flexbox Playground</h3>
+            <p>A small interactive game-style interface that shows how Flexbox aligns, spaces and wraps elements.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>Flexbox</li></ul>
+            <div class="project-links">
+              <a href="https://github.com/aniketkapse149-web" target="_blank" rel="noopener" class="btn btn-small">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project reveal">
+          <div class="project-thumb thumb-2" aria-hidden="true">
+            <div class="mini-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="project-body">
+            <h3>Responsive Landing Page</h3>
+            <p>A fully responsive website that adapts from mobile to desktop using CSS Grid and media queries.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>Grid</li><li>Media Queries</li></ul>
+            <div class="project-links">
+              <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener" class="btn btn-small">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project reveal">
+          <div class="project-thumb thumb-3" aria-hidden="true">
+            <div class="mini-orbit"><i></i></div>
+          </div>
+          <div class="project-body">
+            <h3>CSS Animation Lab</h3>
+            <p>A collection of animated components built with transitions, transforms and keyframes, with zero JavaScript.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>Keyframes</li><li>Transitions</li></ul>
+            <div class="project-links">
+              <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener" class="btn btn-small">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= JOURNEY ================= -->
+    <section id="journey" class="section">
+      <p class="eyebrow">04 — Where I'm going</p>
+      <h2>My <span class="gradient-text">journey</span></h2>
+
+      <ol class="timeline">
+        <li class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <div class="card">
+            <span class="date">2022 — 2026</span>
+            <h3>B.Tech in Computer Science &amp; AI</h3>
+            <p>Studying core computer science with a focus on artificial intelligence.</p>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <div class="card">
+            <span class="date">Now</span>
+            <h3>Web Development Course</h3>
+            <p>Learning HTML, CSS, Flexbox, Grid and responsive design by building real projects.</p>
+          </div>
+        </li>
+        <li class="timeline-item reveal">
+          <span class="timeline-dot"></span>
+          <div class="card">
+            <span class="date">Next</span>
+            <h3>JavaScript, React &amp; beyond</h3>
+            <p>Turning static pages into full web applications and exploring AI-powered products.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+      <p class="eyebrow">05 — Let's connect</p>
+      <h2>Let's build <span class="gradient-text">something together</span></h2>
+
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <p>Have an idea, an internship, or just want to say hi? My inbox is always open.</p>
+          <ul class="contact-list">
+            <li><a href="aniketkapse149@gmail.com"><span>✉️</span> aniketkapse149@gmail.com</a></li>
+            <li><a href="https://github.com/aniketkapse149-web" target="_blank" rel="noopener"><span>🐙</span> github.com/aniketkapse149-web</a></li>
+            <li><a href="https://www.linkedin.com/in/aniket-kapse-1a3139300" target="_blank" rel="noopener"><span>💼</span> linkedin.com/aniket kapse</a></li>
+          </ul>
+        </div>
+
+        <!-- Opens the visitor's email app with the message filled in (no backend needed) -->
+        <form class="card contact-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" placeholder="Tell me about your idea..." required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Message <span class="arrow">→</span></button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>© 2026 Aniket Kapse</p>
+    <p>Built with HTML &amp; CSS ❤️</p>
+    <ul>
+      <li><a href="https://github.com/aniketkapse149-web" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/aniket-kapse-1a3139300" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="mailto:aniketkapse149@gmail.com">Email</a></li>
+    </ul>
+    <a href="#home" class="to-top" aria-label="Back to top">↑</a>
+  </footer>
+
+</body>
+</html>
